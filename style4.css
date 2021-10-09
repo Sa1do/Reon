@@ -1,0 +1,467 @@
+* {
+  margin: 0;
+  padding: 0;
+} 
+ /*TOP*/
+.topnav>img {
+    margin-left: 15%;
+  }
+  .topnav {
+    background-color: white;
+  }
+  .topdiv1 {
+    margin-left: 35%;
+    padding-top: 1%;
+  }
+  .topnav>div>ul>li>a {
+    color: white;
+  }
+  .topnav>div>ul>li {
+    margin-left: 5%;
+  }
+  .h11 {
+    font-style: italic;
+    font-family: 'Satisfy', cursive;
+  }
+  .p1 {
+    font-family: serif,cursive;
+  }
+  .btn1 {
+    padding: 15px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-top: 5%;
+    background-color: #C81019;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+  .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    font-size: 17px;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: white;
+
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {}
+    /*MID*/
+.middiv1 {
+  width: 100%;
+  height: 400px;
+  background-image: url(https://www.gannett-cdn.com/-mm-/b2b05a4ab25f4fca0316459e1c7404c537a89702/c=0-0-1365-768/local/-/media/2018/07/31/USATODAY/usatsports/247WallSt.com-247WS-482802-restaurant.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%, 400px;
+}
+.middiv1-1 {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  opacity: 0.8;
+}
+.middiv1-1>h1 {
+  font-size: 45px;
+  color: white;
+  text-align: center;
+  padding-top: 8%;
+  font-style: italic;
+  font-family: 'Satisfy', cursive;
+}
+.middiv1-1>p {
+  color: white;
+  font-size: 19px;
+  text-align: center;
+  font-style: italic;
+  font-family: 'Satisfy', cursive;
+}
+  /*MID2*/
+
+.middiv2 {
+  width: 100%;
+  height: 950px;
+}
+.hdiv {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.3;
+  display: none;
+}
+.carddiv {
+  width: 33%;
+  height: 400px;
+}
+.carddiv1 {
+  width: 100%;
+  height: 60%;
+  background-image: url(https://freebw.com/templates/reon/images/blog-grid-v1-1.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+}
+.carddiv1:hover div {
+  display: block;
+  opacity: 0.2;
+  cursor: pointer;
+}
+.carddiv2 {
+  width: 100%;
+  height: 40%;
+}
+.carddiv2>h5 {
+  padding-top: 10%;
+  padding-left: 2%;
+  text-align: center;
+}
+.carddiv2>p {
+  color: gray;
+  font-size: 18px;
+  font-family: 'Satisfy', cursive;
+  padding: 2%;
+  text-align: center;
+}
+.carddiv3 {
+  width: 100%;
+  height: 60%;
+  background-image: url(https://freebw.com/templates/reon/images/blog-grid-v1-2.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+}
+.carddiv3:hover div {
+  display: block;
+  opacity: 0.2;
+  cursor: pointer;
+}
+.carddiv4 {
+  width: 100%;
+  height: 60%;
+  background-image: url(https://freebw.com/templates/reon/images/blog-grid-v1-3.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+}
+.carddiv4:hover div {
+  display: block;
+  opacity: 0.2;
+  cursor: pointer;
+}
+.carddiv5 {
+  width: 100%;
+  height: 60%;
+  background-image: url(https://freebw.com/templates/reon/images/blog-grid-v1-4.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+}
+.carddiv5:hover div {
+  display: block;
+  opacity: 0.2;
+  cursor: pointer;
+}
+.carddiv6 {
+  width: 100%;
+  height: 60%;
+  background-image: url(https://freebw.com/templates/reon/images/blog-grid-v1-5.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+}
+.carddiv6:hover div {
+  display: block;
+  opacity: 0.2;
+  cursor: pointer;
+}
+.carddiv7 {
+  width: 100%;
+  height: 60%;
+  background-image: url(https://freebw.com/templates/reon/images/blog-grid-v1-6.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+}
+.carddiv7:hover div {
+  display: block;
+  opacity: 0.2;
+  cursor: pointer;
+}
+.middiv2-1 {
+  width: 70%;
+  height: 350px;
+  margin: 100px auto;
+}
+.middiv2-2 {
+  width: 100%;
+  height: 280px;
+  display: flex;
+  justify-content: space-between;
+}
+.middiv2-3 {
+  width: 70%;
+  height: 500px;
+  margin: 0 auto;
+}
+/*BOT*/
+
+.botdiv1 {
+  width: 100%;
+  height: 600px;
+  background-color: #222222;
+}
+.botdiv1-1 {
+  width: 80%;
+  height: 400px;
+  display: inline-block;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.botdiv1-1-1 {
+  width: 25%;
+  height: 400px;
+  float: left;
+  text-align: justify;
+}
+.botdiv1-1-1>img {
+  margin-left: 10%;
+  margin-top: 30%;
+}
+.botdiv1-1-1>p {
+  padding: 10%;
+  font-size: 18px;
+  color: white;
+}
+.botdiv1-1-1>h5 {
+  padding-left: 15%;
+  margin-top: 30%;
+  font-size: 25px;
+  color: white;
+}
+.botdiv1-1-1>ul {
+  margin-left: 15%;
+  list-style-type: none;
+  font-size: 18px;
+  color: lightgray;
+}
+.botdiv1-1-1>hr {
+  width: 80%;
+}
+.minidiv {
+  <width: 80%;
+  height: 100px;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.minidiv1 {
+  width: 33%;
+  height: 100px;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-footer-1.jpg);
+  background-size: 100% 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.minidiv1 {
+  width: 33%;
+  height: 100px;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-footer-2.jpg);
+  background-size: 100% 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.minidiv2 {
+  width: 34%;
+  height: 100px;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-footer-3.jpg);
+  background-size: 100% 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.minidiv3 {
+  width: 33%;
+  height: 100px;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-footer-4.jpg);
+  background-size: 100% 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.minidiv4 {
+  width: 33%;
+  height: 100px;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-footer-1.jpg);
+  background-size: 100% 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.minidiv5 {
+  width: 34%;
+  height: 100px;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-footer-5.jpg);
+  background-size: 100% 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.minidiv6 {
+  width: 33%;
+  height: 100px;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-footer-6.jpg);
+  background-size: 100% 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+.middiv1 {
+  background-size: 100% 100%;
+}
+.middiv1-1>h1 {
+  padding-top: 18%;
+}
+.middiv1-1>p {
+  padding: 2%;
+}
+.middiv2 {
+  min-height: 3600px;
+}
+.middiv2-1 {
+  min-height: 1700px;
+  flex-wrap: wrap;
+}
+.middiv2-2 {
+  flex-wrap: wrap;
+  height: 1800px;
+}
+.carddiv {
+  width: 100%;
+  height: 600px;
+}
+.middiv2-3 {
+  flex-wrap: wrap;
+  height: 1800px;
+}
+.botdiv1 {
+  height: 1500px;
+  flex-wrap: wrap;
+}
+.botdiv1-1 {
+  height: 1050px;
+}
+.botdiv1-1-1 {
+  width: 100%;
+  height: 350px;
+}
+.botdiv1-1-1>img {
+  margin-top: 2%;
+}
+.botdiv1-1-1>h5 {
+  margin-top: -15%;
+}
+.botdiv1-1-1>ul {
+ margin-top: 8%;
+}
+.minidiv {
+  width: 70%;
+  margin: 35px auto;
+  height: 75px;
+}
+.minidiv1 {
+  width: 30%;
+  height: 100px;
+}
+.minidiv4{
+  width: 30%;
+  height: 100px;
+}
+
+}
+
+@media only screen and (max-width: 480px) {
+
+
+.middiv1-1>h1 {
+  padding-top: 25%;
+}
+.botdiv1 {
+  height: 1500px;
+  flex-wrap: wrap;
+}
+.botdiv1-1 {
+  height: 1050px;
+}
+.botdiv1-1-1 {
+  width: 100%;
+  height: 350px;
+}
+.botdiv1-1-1>img {
+  margin-top: 2%;
+}
+.botdiv1-1-1>h5 {
+  margin-top: -15%;
+}
+.botdiv1-1-1>ul {
+   margin-top: 15%;
+}
+.minidiv {
+  width: 70%;
+  margin: 35px auto;
+  height: 75px;
+}
+.minidiv1 {
+  width: 30%;
+  height: 100px;
+}
+.minidiv4{
+  width: 30%;
+  height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
