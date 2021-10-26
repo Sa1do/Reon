@@ -1,0 +1,1333 @@
+  * {
+    margin: 0;
+    padding: 0;
+  }
+   header {
+  position: relative;
+  background-color: black;
+  height: 800px;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+    /*TOP*/
+  
+  .topnav>img {
+    margin-left: 15%;
+  }
+  .topnav {
+    background-color: #19140E;
+    opacity: 0.8;
+  }
+  .topdiv1 {
+    margin-left: 35%;
+    padding-top: 1%;
+  }
+  .topnav>div>ul>li>a {
+    color: white;
+  }
+  .topnav>div>ul>li {
+    margin-left: 5%;
+  }
+  .h11 {
+    font-style: italic;
+    font-family: 'Satisfy', cursive;
+  }
+  .p1 {
+    font-family: serif,cursive;
+  }
+  .btn1 {
+    padding: 15px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-top: 5%;
+    background-color: #C81019;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+  .btn1:hover {
+    background-color: darkred;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    font-size: 17px;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: white;
+
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {}
+  /*MID*/
+.middiv {
+  width: 100%;
+  height: 550px;
+  display: flex;
+}
+.middiv1 {
+  width: 75%;
+  height: 400px;
+  margin: 75px auto;
+  display: flex;
+}
+.middiv1-1 {
+  width: 55%;
+  height: 400px;
+  display: inline-block;
+}
+.middiv1-1>h3 {
+  padding-top: 5%;
+  padding-left: 2%;
+  font-style: italic;
+  font-family: serif;
+  color: gray;
+}
+.middiv1-1>h1 {
+  padding-left: 2%;
+}
+.middiv1-1>p {
+  padding-top: 2%;
+  font-size: 20px;
+  font-style: italic;
+  font-family: serif;
+  padding: 2%;
+  color: gray;
+}
+.img3 {
+  width: 15%;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 2%;
+  margin-top: -5%;
+}
+.middiv1-1-1 {
+  width: 50%;
+  height: 100px;
+  display: inline-block;
+  margin-left: 5%;
+}
+.middiv1-1-1>h4 {
+  padding-top: 5%;
+}
+.middiv1-1-1>p {
+  color: gray;
+}
+.middiv1-2 {
+  width: 45%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.img1 {
+    width: 49%;
+    height: 400px;
+    background-image: url(https://freebw.com/templates/reon/images/hp-1-story-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 400px;
+}
+.img2 {
+    width: 49%;
+    height: 400px;
+    background-image: url(https://freebw.com/templates/reon/images/hp-1-story-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    background-position: center;
+}
+.middiv2 {
+  width: 100%;
+  height: 800px;
+  background-image: url(https://ksitokyo.com/img/banner/bn02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.middiv2-1 {
+  width: 85%;
+  height: 600px;
+  display: inline-block;
+  margin-top: 8%;
+  margin-left: 8%;
+}
+.row1 {
+  background-color: white;
+  width: 40%; 
+  height: 550px;
+  margin-left: 15%;
+  margin-top: 2%;
+}
+.row1-1 {
+  width: 90%;
+  height: 400px;
+  margin: 0 auto;
+}
+.row1-1>h3 {
+  padding-top: 20%;
+}
+.row1-1>p {
+  padding-top: 3%;
+}
+.row2 {
+  background-color: red;
+  width: 30%; 
+  height:600px;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-features-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+}
+.row3 {
+  background-color: red;
+  width: 30%; 
+  height:600px;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-features-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+}
+.row4 {
+  background-color: red;
+  width: 30%; 
+  height:600px;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-features-4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+}
+.middiv3 {
+  width: 100%;
+  height: 1200px;
+}
+.tab {
+  overflow: hidden;
+  width: 50%;
+  display: flex;
+  margin-left: 29%;
+}
+.tab1>img  {
+  width: 50%;
+  margin-left: 8%;
+}
+.tab1>button {
+  width: 51%;
+  margin-top: 1%;
+}
+.tab button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-family: sans-serif cursive;
+}
+.tab button.active {
+  outline: none !important;
+  text-decoration: underline darkred;
+}
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+    animation: fadeEffect 1s;
+}
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+.tabcontentdiv {
+  width: 75%;
+  height: 700px;
+  margin: 0 auto;
+  display: flex;
+}
+.h12 {
+  color: white;
+  padding-top: 40%;
+  padding-left: 150%;
+  transform: rotate(90deg);
+  font-size: 50px;
+}
+.h13 {
+  color: white;
+  padding-top: 40%;
+  padding-left: 150%;
+  transform: rotate(90deg);
+  font-size: 50px;
+}
+.h14 {
+  color: white;
+  padding-top: 40%;
+  padding-left: 150%;
+  transform: rotate(90deg);
+  font-size: 50px;
+}
+.tabcontentdiv1 {
+  width: 20%;
+  height: 700px;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-start.jpg);
+  background-size: 100% 700px;
+  background-repeat: no-repeat;
+}
+.tabcontentdiv2 {
+  width: 80%;
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.tabcontentdiv2-1 {
+  width: 49.5%;
+  height: 340px;
+}
+.tabcontentdiv2-1-1 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: 80px 80px;
+  background-position: center;
+  margin-left: 10%;
+  margin-top: 13%;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-start-1.jpg);
+}
+.tabcontentdiv2-1-2 {
+  margin-top: 12%;
+  margin-left: 10%;
+}
+.tabcontentdiv2-1-3 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: 80px 80px;
+  background-position: center;
+  margin-left: 10%;
+  margin-top: 13%;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-start-2.jpg);
+}
+.tabcontentdiv2-1-4 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: 80px 80px;
+  background-position: center;
+  margin-left: 10%;
+  margin-top: 13%;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-start-3.jpg);
+}
+.tabcontentdiv2-1-5 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: 80px 80px;
+  background-position: center;
+  margin-left: 10%;
+  margin-top: 13%;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-start-4.jpg);
+}
+.tabcontentdiv2-1-6 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: 80px 80px;
+  background-position: center;
+  margin-left: 10%;
+  margin-top: 13%;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-lunch-1.jpg);
+}
+.tabcontentdiv2-1-7 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: 80px 80px;
+  background-position: center;
+  margin-left: 10%;
+  margin-top: 13%;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-lunch-2.jpg);
+}
+.tabcontentdiv2-1-8 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: 80px 80px;
+  background-position: center;
+  margin-left: 10%;
+  margin-top: 13%;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-lunch-3.jpg);
+}
+.tabcontentdiv2-1-9 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: 80px 80px;
+  background-position: center;
+  margin-left: 10%;
+  margin-top: 13%;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-lunch-4.jpg);
+}
+.tabcontentdiv2-1-10 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: 80px 80px;
+  background-position: center;
+  margin-left: 10%;
+  margin-top: 13%;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-dinner-1.jpg);
+}
+.tabcontentdiv2-1-11 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: 80px 80px;
+  background-position: center;
+  margin-left: 10%;
+  margin-top: 13%;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-dinner-2.jpg);
+}
+.tabcontentdiv2-1-12 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: 80px 80px;
+  background-position: center;
+  margin-left: 10%;
+  margin-top: 13%;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-dinner-3.jpg);
+}
+.tabcontentdiv2-1-13 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: 80px 80px;
+  background-position: center;
+  margin-left: 10%;
+  margin-top: 13%;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-dinner-4.jpg);
+}
+.tabcontentdiv2-1-14 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: 80px 80px;
+  background-position: center;
+  margin-left: 10%;
+  margin-top: 13%;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-dessert-1.jpg);
+}
+.tabcontentdiv2-1-15 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: 80px 80px;
+  background-position: center;
+  margin-left: 10%;
+  margin-top: 13%;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-dessert-2.jpg);
+}
+.tabcontentdiv2-1-16 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: 80px 80px;
+  background-position: center;
+  margin-left: 10%;
+  margin-top: 13%;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-dessert-3.jpg);
+}
+.tabcontentdiv2-1-17 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: 80px 80px;
+  background-position: center;
+  margin-left: 10%;
+  margin-top: 13%;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-dessert-4.jpg);
+}
+.tabcontentdiv2-1-18 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: 80px 80px;
+  background-position: center;
+  margin-left: 10%;
+  margin-top: 13%;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-alcoholic-1.jpg);
+}
+.tabcontentdiv2-1-19 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: 80px 80px;
+  background-position: center;
+  margin-left: 10%;
+  margin-top: 13%;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-alcoholic-2.jpg);
+}
+.tabcontentdiv2-1-20 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: 80px 80px;
+  background-position: center;
+  margin-left: 10%;
+  margin-top: 13%;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-alcoholic-3.jpg);
+}
+.tabcontentdiv2-1-21 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: 80px 80px;
+  background-position: center;
+  margin-left: 10%;
+  margin-top: 13%;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-alcoholic-4.jpg);
+}
+.tabcontentdiv2-1-22 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: 80px 80px;
+  background-position: center;
+  margin-left: 10%;
+  margin-top: 13%;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-drinks-1.jpg);
+}
+.tabcontentdiv2-1-23 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: 80px 80px;
+  background-position: center;
+  margin-left: 10%;
+  margin-top: 13%;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-drinks-2.jpg);
+}
+.tabcontentdiv2-1-24 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: 80px 80px;
+  background-position: center;
+  margin-left: 10%;
+  margin-top: 13%;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-drinks-3.jpg);
+}
+.tabcontentdiv2-1-25 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: 80px 80px;
+  background-position: center;
+  margin-left: 10%;
+  margin-top: 13%;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-drinks-4.jpg);
+}
+.tabcontentdiv3 {
+  width: 20%;
+  height: 700px;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-lunch.jpg);
+  background-size: 100% 700px;
+  background-repeat: no-repeat;
+}
+.tabcontentdiv4 {
+  width: 20%;
+  height: 700px;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-dinner.jpg);
+  background-size: 100% 700px;
+  background-repeat: no-repeat;
+}
+.tabcontentdiv5 {
+  width: 20%;
+  height: 700px;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-dessert.jpg);
+  background-size: 100% 700px;
+  background-repeat: no-repeat;
+}
+.tabcontentdiv6 {
+  width: 20%;
+  height: 700px;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-alcoholic.jpg);
+  background-size: 100% 700px;
+  background-repeat: no-repeat;
+}
+.tabcontentdiv7 {
+  width: 20%;
+  height: 700px;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-menu-drinks.jpg);
+  background-size: 100% 700px;
+  background-repeat: no-repeat;
+}
+.middiv4 {
+  width: 100%;
+  height: 600px;
+  background-image: url(https://hynesillingworth.com/content/uploads/2017/09/semenov-ivan-191829-1600x740.jpg);
+  background-position: center;
+  background-size: 100% 600px;
+  margin-top: 5%;
+}
+.middiv4-1 {
+  display: inline-block;
+  margin-top: 13%;
+  margin-left: 35%;
+  text-align: center;
+}
+.m1 {
+  background-color: black;
+  opacity: 0.8;
+  width: 100%;
+  height: 600px;
+}
+.middiv4-1>h1 {
+  color: white; 
+  font-size: 80px;
+}
+  /*MID 3*/
+
+.middiv5 {
+  width: 100%;
+  height: 1100px;
+}
+.middiv5>button {
+   margin-left:43%
+}
+.middiv5-1 {
+  width: 75%;
+  height: 650px;
+  margin: 0 auto;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.middiv5-1-1 {
+  width: 33%;
+  height: 325px;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-gallery-1.jpg);
+  background-size: 100% 325px;
+  background-position: center;
+}
+.hdiv {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.middiv5-1-1:hover div{
+  display: block;
+  background-color: black;
+  opacity: 0.3;
+}
+.middiv5-1-2 {
+  width: 34%;
+  height: 325px;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-gallery-2.jpg);
+  background-size: 100% 325px;
+  background-position: center;
+}
+.middiv5-1-2:hover div{
+  display: block;
+  background-color: black;
+  opacity: 0.3;
+}
+.middiv5-1-3 {
+  width: 33%;
+  height: 325px;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-gallery-3.jpg);
+  background-size: 100% 325px;
+  background-position: center;
+}
+.middiv5-1-3:hover div{
+  display: block;
+  background-color: black;
+  opacity: 0.3;
+}
+.middiv5-1-4 {
+  width: 33%;
+  height: 325px;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-gallery-4.jpg);
+  background-size: 100% 325px;
+  background-position: center;
+}
+.middiv5-1-4:hover div{
+  display: block;
+  background-color: black;
+  opacity: 0.3;
+}
+.middiv5-1-5 {
+  width: 34%;
+  height: 325px;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-gallery-5.jpg);
+  background-size: 100% 325px;
+  background-position: center;
+}
+.middiv5-1-5:hover div{
+  display: block;
+  background-color: black;
+  opacity: 0.3;
+}
+.middiv5-1-6 {
+  width: 33%;
+  height: 325px;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-gallery-6.jpg);
+  background-size: 100% 325px;
+  background-position: center;
+}
+.middiv5-1-6:hover div{
+  display: block;
+  background-color: black;
+  opacity: 0.3;
+}
+.middiv6 {
+  width: 100%;
+  height: 600px;
+  background-color: #F2F2F2;
+  text-align: center;
+}
+.middiv6-1 {
+  width: 70%;
+  height: 100px;
+  background-color: white;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-around;
+}
+.middiv6-1>select {
+  height: 40px;
+  border: solid 0.5px lightgray;
+  margin-top: 2.5%;
+} 
+.middiv6-1>span {
+  margin-top: 3.5%;
+}
+.middiv6-1>input {
+  height: 40px;
+  border: solid 0.5px lightgray;
+  margin-top: 2.5%;
+}
+.middiv6-1>button {
+  height: 50px;
+  width: 150px;
+  margin-top: 2%;
+  border: none;
+  background-color: #C71019;
+  color: white;
+}
+.middiv6-1>button:hover {
+  background-color: darkred;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+  /*BOT*/
+
+.botdiv1 {
+  width: 100%;
+  height: 600px;
+  background-color: #222222;
+}
+.botdiv1-1 {
+  width: 80%;
+  height: 400px;
+  display: inline-block;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.botdiv1-1-1 {
+  width: 25%;
+  height: 400px;
+  float: left;
+  text-align: justify;
+}
+.botdiv1-1-1>img {
+  margin-left: 10%;
+  margin-top: 30%;
+}
+.botdiv1-1-1>p {
+  padding: 10%;
+  font-size: 18px;
+  color: white;
+}
+.botdiv1-1-1>h5 {
+  padding-left: 15%;
+  margin-top: 30%;
+  font-size: 25px;
+  color: white;
+}
+.botdiv1-1-1>ul {
+  margin-left: 15%;
+  list-style-type: none;
+  font-size: 18px;
+  color: lightgray;
+}
+.botdiv1-1-1>hr {
+  width: 80%;
+}
+.minidiv {
+  <width: 80%;
+  height: 100px;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.minidiv1 {
+  width: 33%;
+  height: 100px;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-footer-1.jpg);
+  background-size: 100% 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.minidiv1 {
+  width: 33%;
+  height: 100px;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-footer-2.jpg);
+  background-size: 100% 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.minidiv2 {
+  width: 34%;
+  height: 100px;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-footer-3.jpg);
+  background-size: 100% 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.minidiv3 {
+  width: 33%;
+  height: 100px;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-footer-4.jpg);
+  background-size: 100% 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.minidiv4 {
+  width: 33%;
+  height: 100px;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-footer-1.jpg);
+  background-size: 100% 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.minidiv5 {
+  width: 34%;
+  height: 100px;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-footer-5.jpg);
+  background-size: 100% 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.minidiv6 {
+  width: 33%;
+  height: 100px;
+  background-image: url(https://freebw.com/templates/reon/images/hp-1-footer-6.jpg);
+  background-size: 100% 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.b2 {
+  margin-left: 45%;
+}
+
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+
+  header video {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+
+  /*MID*/
+.middiv {
+  min-height: 1000px;
+}
+.middiv1 {
+  flex-wrap: wrap;
+  min-height: 800px;
+}
+.middiv1-1 {
+  width: 100%;
+}
+.middiv1-2 {
+  width: 100%;
+}
+.middiv2 {
+  min-height: 1150px;
+  background-size: 110% 110%;
+}
+.row {
+  flex-wrap: wrap;
+}
+.row1 {
+  width: 60%;
+  margin-left: 20%;
+  height: 500px;
+}
+.row2 {
+  width: 60%;
+  margin-left: 20%;
+  height: 500px;
+}
+.row3 {
+  width: 60%;
+  margin-left: 20%;
+  height: 500px;
+}
+.row4 {
+  width: 60%;
+  margin-left: 20%;
+  height: 500px;
+}
+.ccp {
+  margin-top: 65%;
+}
+.ccn {
+  margin-top: 65%;
+}
+.middiv3 {
+  min-height: 1000px;
+}
+.tab {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.tab1 {
+  width: 30%;
+}
+.tabcontentdiv {
+  margin-top: 5%;
+  margin-left: 15%;
+  height: 550px;
+  border: solid 1px lightgray;
+}
+.tabcontentdiv1 {
+  display: none;
+}
+.tabcontentdiv2 {
+  width: 100%;
+  height: 500px;
+}
+.tabcontentdiv2-1 {
+  height: 250px;
+}
+.tabcontentdiv2-1-2>h4 {
+  font-size: 16px;
+}
+.tabcontentdiv3 {
+  display: none;
+}
+.tabcontentdiv4 {
+  display: none;
+}
+.tabcontentdiv5 {
+  display: none;
+}
+.tabcontentdiv6 {
+  display: none;
+}
+.tabcontentdiv7 {
+  display: none;
+}
+.k1>button {
+  margin-top: 3% !important;
+}
+.b2 {
+  margin: 0 auto;
+  margin-left: 38%;
+  margin-top: 8%;
+}
+.middiv4-1 {
+  margin: 180px auto;
+  margin-left: 18%;
+}
+.middiv5 {
+  min-height: 2350px;
+}
+.middiv5-1 {
+  flex-wrap: wrap;
+  min-height: 1950px;
+}
+.middiv5-1-1 {
+  width: 90%;
+  margin: 0 auto;
+}
+.middiv5-1-2 {
+  width: 90%;
+  margin: 0 auto;
+}
+.middiv5-1-3 {
+  width: 90%;
+  margin: 0 auto;
+}
+.middiv5-1-4 {
+  width: 90%;
+  margin: 0 auto;
+}
+.middiv5-1-5 {
+  width: 90%;
+  margin: 0 auto;
+}
+.middiv5-1-6 {
+  width: 90%;
+  margin: 0 auto;
+}
+.b1 {
+  margin: 50px auto !important;
+  margin-left: 37% !important;
+}
+.middiv6 {
+  height: 950px;
+}
+.middiv6-1 {
+  height: 500px;
+  flex-wrap: wrap;
+  margin-top: -13%;
+}
+.middiv6-1>select {
+  width: 90%;
+  margin-top: 5%;
+  text-align: left;
+  height: 60px;
+}
+.middiv6-1>span {
+  width: 90%;
+  height: 60px;
+  margin-top: -1%;
+}
+.middiv6-1>input {
+  width: 90%;
+  height: 60px;
+  margin-top: -8%;
+}
+.c1 {
+  margin-top: -8% !important;
+}
+.botdiv1 {
+  height: 1500px;
+  flex-wrap: wrap;
+}
+.botdiv1-1 {
+  height: 1050px;
+}
+.botdiv1-1-1 {
+  width: 100%;
+  height: 350px;
+}
+.botdiv1-1-1>img {
+  margin-top: 2%;
+}
+.botdiv1-1-1>h5 {
+  margin-top: -15%;
+}
+.botdiv1-1-1>ul {
+   margin-top: 8%;
+}
+.minidiv {
+  width: 70%;
+  margin: 35px auto;
+  height: 75px;
+}
+.minidiv1 {
+  width: 30%;
+  height: 100px;
+}
+.minidiv4{
+  width: 30%;
+  height: 100px;
+}
+
+}
+
+@media only screen and (max-width: 480px) {
+
+
+.middiv {
+  min-height: 1350px;
+}
+.middiv1 {
+  flex-wrap: wrap;
+  min-height: 1250px;
+}
+.middiv1-1 {
+  width: 100%;
+}
+.middiv1-2 {
+  width: 100%;
+  height: 800px;
+  flex-wrap: wrap;
+}
+.img1 {
+  width: 100%;
+}
+.img2 {
+  width: 100%;
+}
+.img3 {
+  width: 100px;
+  height: 100px;
+}
+.middiv2 {
+  min-height: 1200px;
+  background-size: 110% 110%;
+}
+.row {
+  flex-wrap: wrap;
+}
+.row1 {
+  width: 60%;
+  margin-left: 20%;
+  height: 600px;
+}
+.row2 {
+  width: 60%;
+  margin-left: 20%;
+  height: 500px;
+}
+.row3 {
+  width: 60%;
+  margin-left: 20%;
+  height: 500px;
+}
+.row4 {
+  width: 60%;
+  margin-left: 20%;
+  height: 500px;
+}
+.ccp {
+  margin-top: 65%;
+}
+.ccn {
+  margin-top: 65%;
+}
+.middiv3 {
+  min-height: 1000px;
+}
+.tab {
+  display: flex;
+  width: 60%;
+  margin-left: 22%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+.tab1 {
+  width: 30%;
+}
+.tab1>img {
+  margin-left: 35%;
+}
+.tabcontentdiv {
+  margin-top: 5%;
+  margin-left: 15%;
+  height: 550px;
+  border: solid 1px lightgray;
+}
+.tabcontentdiv1 {
+  display: none;
+}
+.tabcontentdiv2 {
+  width: 100%;
+  height: 500px;
+}
+.tabcontentdiv2-1 {
+  height: 250px;
+}
+.tabcontentdiv2-1-2>h4 {
+  font-size: 16px;
+}
+.tabcontentdiv3 {
+  display: none;
+}
+.tabcontentdiv4 {
+  display: none;
+}
+.tabcontentdiv5 {
+  display: none;
+}
+.tabcontentdiv6 {
+  display: none;
+}
+.tabcontentdiv7 {
+  display: none;
+}
+.k1>button {
+  margin-top: 3% !important;
+}
+.b2 {
+  margin: 0 auto;
+  margin-left: 28%;
+  margin-top: 8%;
+}
+.middiv4-1 {
+  margin: 180px auto;
+}
+.middiv5 {
+  min-height: 2350px;
+}
+.middiv5-1 {
+  flex-wrap: wrap;
+  min-height: 1950px;
+}
+.middiv5-1-1 {
+  width: 90%;
+  margin: 0 auto;
+}
+.middiv5-1-2 {
+  width: 90%;
+  margin: 0 auto;
+}
+.middiv5-1-3 {
+  width: 90%;
+  margin: 0 auto;
+}
+.middiv5-1-4 {
+  width: 90%;
+  margin: 0 auto;
+}
+.middiv5-1-5 {
+  width: 90%;
+  margin: 0 auto;
+}
+.middiv5-1-6 {
+  width: 90%;
+  margin: 0 auto;
+}
+.b1 {
+  margin: 50px auto !important;
+  margin-left: 28% !important;
+}
+.middiv6 {
+  height: 950px;
+}
+.middiv6-1 {
+  height: 500px;
+  flex-wrap: wrap;
+  margin-top: -13%;
+}
+.middiv6-1>select {
+  width: 90%;
+  margin-top: 5%;
+  text-align: left;
+  height: 60px;
+}
+.middiv6-1>span {
+  width: 90%;
+  height: 60px;
+  margin-top: -1%;
+}
+.middiv6-1>input {
+  width: 90%;
+  height: 60px;
+  margin-top: -8%;
+}
+.c1 {
+  margin-top: -8% !important;
+}
+.botdiv1 {
+  height: 1500px;
+  flex-wrap: wrap;
+}
+.botdiv1-1 {
+  height: 1050px;
+}
+.botdiv1-1-1 {
+  width: 100%;
+  height: 350px;
+}
+.botdiv1-1-1>img {
+  margin-top: 2%;
+}
+.botdiv1-1-1>h5 {
+  margin-top: -15%;
+}
+.botdiv1-1-1>ul {
+   margin-top: 15%;
+}
+.minidiv {
+  width: 70%;
+  margin: 35px auto;
+  height: 75px;
+}
+.minidiv1 {
+  width: 30%;
+  height: 100px;
+}
+.minidiv4{
+  width: 30%;
+  height: 100px;
+}
