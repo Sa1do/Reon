@@ -1181,7 +1181,7 @@
 .tab {
   display: flex;
   width: 60%;
-  margin-left: 17%;
+  margin-left: 19%;
   justify-content: space-between;
   flex-wrap: wrap;
 
@@ -1194,7 +1194,7 @@
 }
 .tabcontentdiv {
   margin-top: 5%;
-  margin-left: 9%;
+  margin-left: 13%;
   height: 550px;
   border: solid 1px lightgray;
 }
