@@ -1143,7 +1143,8 @@
 }
 .middiv2 {
   min-height: 1200px;
-  background-size: 110% 110%;
+  background-size: cover;
+  background-position: left;
 }
 .row {
   flex-wrap: wrap;
