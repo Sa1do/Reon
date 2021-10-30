@@ -569,6 +569,9 @@
 .middiv3 {
   height: 1000px;
 }  
+.middiv3-2 {
+  margin-top: -5%;
+} 
 .middiv3-1>h1 {
   font-size: 55px;
 }  
