@@ -561,9 +561,29 @@
 @media only screen and (max-width: 480px) {
 
 .middiv1-1>h1 {
-  padding-top: 22%;
+  padding-top: 30%;
 }
-
+.middiv1-2-1-1 {
+  height: 300px;
+}  
+.middiv3 {
+  height: 1000px;
+}  
+.middiv3-1>h1 {
+  font-size: 55px;
+}  
+.middiv21 {
+  height: 1700px;
+}  
+.middiv21-4 {
+  height: 300px;
+}
+.middiv21-3 {
+  height: 300px;
+} 
+.middiv21-4 {
+  height: 300px;
+}   
 .botdiv1 {
   height: 1500px;
   flex-wrap: wrap;
