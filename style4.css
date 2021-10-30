@@ -414,6 +414,15 @@
 .middiv1-1>h1 {
   padding-top: 25%;
 }
+.middiv2 {
+  height: 2150px;
+}
+.middiv2-1 {
+  min-height: 950px;
+}  
+.middiv2-3 {
+  min-height: 1050px; 
+}  
 .botdiv1 {
   height: 1500px;
   flex-wrap: wrap;
