@@ -597,12 +597,11 @@
   display: inline-block;
   padding-top: 50%;
 }
- .m1>h1 {
-  display: inline-block;
-  padding-top: 0%;
-}
 .m2>h1 {
   padding-top: 42%;
+}
+.m3>h1 {
+  padding-top: 0%;
 }
 .m4>h1 {
   display: inline-block;
