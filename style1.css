@@ -587,16 +587,33 @@
 
 @media only screen and (max-width: 480px) {
 
+.middiv1-1>h1 {
+  padding-top: 28%;
+}  
 .middiv1-1>p {
   padding: 5%;
 }
-.middiv3 {
-  height: 1000px;
+.m1>h1 {
+  display: block;
+  padding-top: 42%;
 }
+.m2>h1 {
+  padding-top: 42%;
+}
+.m4>h1 {
+  display: block;
+  padding-top: 41%;
+}
+.middiv3 {
+  height: 1100px;
+}
+.middiv3-1 {
+  padding-top: 25%;
+}  
 .middiv3-2 {
   height: 500px;
   flex-wrap: wrap;
-  margin-top: -13%;
+  margin-top: 0%;
 }
 .middiv3-2>select {
   width: 90%;
