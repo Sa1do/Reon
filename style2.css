@@ -572,6 +572,9 @@
 .middiv3-1>h1 {
   font-size: 55px;
 }  
+.contdiv {
+  height: 430px;
+}  
 .middiv21 {
   height: 1700px;
 }  
@@ -580,9 +583,11 @@
 }
 .middiv21-3 {
   height: 300px;
+  margin-top: 80%;
 } 
 .middiv21-4 {
   height: 300px;
+  margin-top: -160%
 }   
 .botdiv1 {
   height: 1500px;
