@@ -1117,7 +1117,7 @@
 
 
 .middiv {
-  min-height: 1350px;
+  min-height: 1450px;
 }
 .middiv1 {
   flex-wrap: wrap;
@@ -1125,10 +1125,11 @@
 }
 .middiv1-1 {
   width: 100%;
+  height:230px;
 }
 .middiv1-2 {
   width: 100%;
-  height: 800px;
+  height: 850px;
   flex-wrap: wrap;
 }
 .img1 {
@@ -1157,17 +1158,17 @@
 .row2 {
   width: 60%;
   margin-left: 20%;
-  height: 500px;
+  height: 450px;
 }
 .row3 {
   width: 60%;
   margin-left: 20%;
-  height: 500px;
+  height: 450px;
 }
 .row4 {
   width: 60%;
   margin-left: 20%;
-  height: 500px;
+  height: 450px;
 }
 .ccp {
   margin-top: 65%;
@@ -1237,6 +1238,9 @@
 .middiv4-1 {
   margin: 180px auto;
 }
+ .middiv4-1>h1 {
+  font-size: 70px;
+ }
 .middiv5 {
   min-height: 2350px;
 }
