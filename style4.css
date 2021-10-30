@@ -415,10 +415,19 @@
   padding-top: 25%;
 }
 .middiv2 {
-  height: 2150px;
+  height: 2550px;
 }
 .middiv2-1 {
-  min-height: 950px;
+  min-height: 2500px;
+}  
+.middiv2-2 {
+  height: 1200px; 
+}  
+.middiv2-3 {
+  margin-top: 65%;
+}      
+.carddiv {
+  height: 350px;
 }  
 .middiv2-3 {
   min-height: 1050px; 
