@@ -613,6 +613,9 @@
 .middiv3-1 {
   padding-top: 25%;
 }  
+.middiv3-1>h1 {
+  font-size: 50px;  
+}  
 .middiv3-2 {
   height: 500px;
   flex-wrap: wrap;
