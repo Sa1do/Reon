@@ -412,36 +412,34 @@
   padding-top: 25%;
 }
 .middiv2 {
-  height: 2200px;
+  height: 2000px;
 }
 .middiv2-1 {
-  height: 2100px;
+  height: 2000px;
 }  
+.middiv2-1-1 {
+  height: 650px;  
+}
 .middiv2-1-2 {
-  height: 900px;
+  height: 650px;
 }  
 .middiv2-1-3 {
   height: 300px;
 } 
 .middiv2-1-4 {
   height: 300px;
-  margin-top: -100%;
 }  
 .middiv2-1-5 {
   height: 300px;
-  margin-top: -100%;
 }  
 .middiv2-1-6 {
   height: 300px;
-  margin-top: -130%;
 }    
 .middiv2-1-7 {
   height: 300px;
-  margin-top: -160%;
 }  
 .middiv2-1-8 {
   height: 300px;
-  margin-top: -190%;
 }    
 .botdiv1 {
   height: 1500px;
